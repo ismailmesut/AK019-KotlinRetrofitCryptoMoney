@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.ismailmesutmujde.kotlinretrofitcryptomoney.R
-import com.ismailmesutmujde.kotlinretrofitcryptomoney.databinding.RowLayoutBinding
 import com.ismailmesutmujde.kotlinretrofitcryptomoney.model.CryptoModel
 
 class RecyclerViewAdapter (private val cryptoList : ArrayList<CryptoModel>, private val listener : Listener) : RecyclerView.Adapter<RecyclerViewAdapter.RowHolder>() {
