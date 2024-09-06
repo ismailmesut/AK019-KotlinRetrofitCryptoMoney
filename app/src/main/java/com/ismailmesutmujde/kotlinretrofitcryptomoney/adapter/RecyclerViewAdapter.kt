@@ -28,6 +28,8 @@ class RecyclerViewAdapter (private val cryptoList : ArrayList<CryptoModel>, priv
             val textPrice = itemView.findViewById<TextView>(R.id.textPrice)
             textName.text = cryptoModel.currency
             textPrice.text = cryptoModel.price
+            //itemView.text_name.text = cryptoModel.currency
+            //itemView.text_price.text = cryptoModel.price
         }
     }
 
